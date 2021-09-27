@@ -1,0 +1,288 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+}
+
+.section-name {
+  color: #bf0a0a;
+}
+
+header {
+  height: 500px;
+}
+
+.hero-img {
+  position: relative;
+  height: 100%;
+  background-image: url("../img/header_car.jpg");
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.navbar-toggler {
+  z-index: 100;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+button.navbar-toggler {
+  outline: none;
+}
+
+nav button.navbar-toggler i {
+  color: #ddd;
+  font-size: 3rem;
+}
+
+nav .navbar-nav a {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: #ddd;
+  -webkit-transition: color .3s, -webkit-transform .3s;
+  transition: color .3s, -webkit-transform .3s;
+  transition: color .3s, transform .3s;
+  transition: color .3s, transform .3s, -webkit-transform .3s;
+}
+
+nav .navbar-nav a:hover {
+  color: #ffffff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.show {
+  background-color: rgba(0, 0, 0, 0.83);
+  height: 300px;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+header .container {
+  color: #dddddd;
+}
+
+header .header-logo {
+  height: 23rem;
+}
+
+header .header-logo h1 {
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+header .header-logo span, i {
+  color: #bf0a0a;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+header .header-text {
+  height: 10rem;
+  letter-spacing: 3px;
+}
+
+header .header-btn {
+  height: 4rem;
+}
+
+header .header-btn a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+header .header-btn button {
+  color: #ddd;
+  outline: none;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  background-color: #bf0a0a;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 3px #9c0909;
+          box-shadow: 0 1px 3px #9c0909;
+  -webkit-transition: color .3s, -webkit-box-shadow .3s, -webkit-transform .3s;
+  transition: color .3s, -webkit-box-shadow .3s, -webkit-transform .3s;
+  transition: box-shadow .3s, color .3s, transform .3s;
+  transition: box-shadow .3s, color .3s, transform .3s, -webkit-box-shadow .3s, -webkit-transform .3s;
+}
+
+header .header-btn button:hover {
+  -webkit-box-shadow: 0 2px 5px #9c0909;
+          box-shadow: 0 2px 5px #9c0909;
+  color: #ffffff;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+#offer {
+  background-color: #f0f0f0;
+}
+
+#offer .card {
+  min-width: 300px;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+#offer .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#offer .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#offer .card-title {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+#offer .card-title span {
+  color: #bf0a0a;
+}
+
+#offer .card-text {
+  font-size: 1.6rem;
+}
+
+#offer .card-footer {
+  font-size: 1.4rem;
+}
+
+#offer .card-footer span {
+  color: #bf0a0a;
+}
+
+#offer .jumbotron p.description {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 0 black;
+}
+
+#gallery {
+  background-color: #f0f0f0;
+  z-index: 10;
+}
+
+#gallery .carousel-item {
+  height: 600px;
+  z-index: 0;
+}
+
+#gallery .one {
+  background-image: url("../img/gallery/subaru_gallery.jpg");
+}
+
+#gallery .two {
+  background-image: url("../img/gallery/audi_gallery.jpg");
+}
+
+#gallery .three {
+  background-image: url("../img/gallery/golf_gallery.jpg");
+}
+
+#gallery .carousel-img {
+  position: relative;
+  height: 100%;
+  background-position: top 70% right 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+#gallery .hero-shadow-gallery {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
+#contact {
+  background-color: #f0f0f0;
+}
+
+#contact address p,
+#contact label {
+  font-size: 1.5rem;
+}
+
+#contact address p a {
+  color: black;
+  text-decoration: none;
+}
+
+#contact hr, #contact button.btn {
+  background-color: #bf0a0a;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+#contact p.logo {
+  font-size: 2.5rem;
+}
+
+#contact .logo i {
+  font-size: 3rem;
+}
+
+#contact .logo span,
+#contact p.display-4 {
+  color: #bf0a0a;
+}
+
+#contact input {
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: #ddd;
+  font-size: 1.6rem;
+}
+
+footer i {
+  font-size: 2.4rem;
+  vertical-align: sub;
+}
+
+footer span {
+  color: #bf0a0a;
+}
+/*# sourceMappingURL=style.css.map */

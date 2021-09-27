@@ -1,0 +1,220 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    font-size: 10px
+    scroll-behavior: smooth
+
+body
+    position: relative
+    font-family: 'Lato', sans-serif
+
+.section-name
+    color: #bf0a0a
+
+header
+    height: 500px
+
+.hero-img
+    position: relative
+    height: 100%
+    background-image: url('../img/header_car.jpg')
+    background-position: 30%
+    background-repeat: no-repeat
+    background-size: cover
+    z-index: 1
+
+.hero-shadow
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,.5)
+    z-index: -1
+
+.navbar-toggler
+    z-index: 100
+
+nav
+    background-color: rgba(0,0 ,0 ,.5 )
+    z-index: 10
+
+button.navbar-toggler
+    outline: none
+
+nav button.navbar-toggler i
+    color: #ddd
+    font-size: 3rem
+
+nav .navbar-nav a
+    font-size: 1.8rem
+    letter-spacing: 2px
+    color: #ddd
+    transition: color .3s, transform .3s
+
+nav .navbar-nav a:hover
+    color: #ffffff
+    transform: scale(1.1)
+
+.show
+    background-color: rgba(0,0 ,0 ,.83 )
+    height: 300px
+    transition: .1s
+
+header .container
+    color: #dddddd
+
+header .header-logo
+    height: 23rem
+
+header .header-logo h1
+    letter-spacing: 2px
+    font-size: 4rem
+
+header .header-logo span, i
+    color: #bf0a0a
+    font-weight: bold
+    font-size: 4rem
+
+header .header-text
+    height: 10rem
+    letter-spacing: 3px
+
+header .header-btn
+    height: 4rem
+
+header .header-btn a
+    color: #ddd
+    text-decoration: none
+
+header .header-btn button
+    color: #ddd
+    outline: none
+    letter-spacing: 1px
+    font-size: 1.6rem
+    background-color: #bf0a0a
+    border: none
+    border-radius: 8px
+    box-shadow: 0 1px 3px #9c0909
+    transition: box-shadow .3s, color .3s, transform .3s
+
+header .header-btn button:hover
+    box-shadow: 0 2px 5px #9c0909
+    color: #ffffff
+    transform: scale(1.01)
+
+// offer
+#offer
+    background-color: #f0f0f0
+
+    .card
+        min-width: 300px
+        overflow: hidden
+        transition: transform .3s
+
+    .card:hover
+        transform: scale(1.05)
+
+    .card img
+        height: 300px
+        object-fit: cover
+
+    .card-title
+        font-size: 2.2rem
+        letter-spacing: 1px
+
+    .card-title span
+        color: #bf0a0a
+
+    .card-text
+        font-size: 1.6rem
+
+    .card-footer
+        font-size: 1.4rem
+
+    .card-footer span
+        color: #bf0a0a
+
+    .jumbotron p.description
+        font-size: 1.4rem
+        letter-spacing: 2px
+        text-shadow: 0 1px 0 black
+
+// gallery
+#gallery
+    background-color: #f0f0f0
+    z-index: 10
+
+    .carousel-item
+        height: 600px
+        z-index: 0
+
+    .one
+        background-image: url('../img/gallery/subaru_gallery.jpg')
+
+    .two
+        background-image: url('../img/gallery/audi_gallery.jpg')
+
+    .three
+        background-image: url('../img/gallery/golf_gallery.jpg')
+
+    .carousel-img
+        position: relative
+        height: 100%
+        background-position: top 70% right 20%
+        background-repeat: no-repeat
+        background-size: cover
+        z-index: 1
+
+    .hero-shadow-gallery
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,.65)
+        z-index: -1
+
+#contact
+    background-color: #f0f0f0
+
+    address p,
+    label
+        font-size: 1.5rem
+
+    address p a
+        color: black
+        text-decoration: none
+
+    hr, button.btn
+        background-color: #bf0a0a
+        color: #fff
+        font-size: 1.4rem
+
+    p.logo
+        font-size: 2.5rem
+
+    .logo i
+        font-size: 3rem
+
+    .logo span,
+    p.display-4
+        color: #bf0a0a
+
+    input
+        font-size: 1.4rem
+
+footer
+    background-color: black
+
+    p
+        color: #ddd
+        font-size: 1.6rem
+
+    i
+        font-size: 2.4rem
+        vertical-align: sub
+
+    span
+        color: #bf0a0a
